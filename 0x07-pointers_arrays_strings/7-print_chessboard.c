@@ -2,7 +2,7 @@
 /**
  * print_chessboard - entry point
  * @a: arrray
- * Return: 0 for success
+ * Return: always 0 for success
  */
 void print_chessboard(char (*a)[8])
 {
@@ -13,6 +13,6 @@ void print_chessboard(char (*a)[8])
 	{
 		for (j = 0; j < 8; j++)
 			_putchar(a[i][j]);
-		_putchar("\n");
+		_putchar('\n');
 	}
 }
